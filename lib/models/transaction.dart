@@ -7,7 +7,7 @@ class Transaction {
   @required
   final String title;
   @required
-  final double amount;
+  final int amount;
   @required
   final DateTime date;
 
