@@ -1,5 +1,4 @@
 // ignore_for_file: prefer_const_constructors, deprecated_member_use, use_key_in_widget_constructors
-
 import 'package:flutter/material.dart';
 
 class NewTransaction extends StatefulWidget {
@@ -18,7 +17,7 @@ class _NewTransactionState extends State<NewTransaction> {
 
   void submitData() {
     final enteredTitle = titleController.text;
-    final enteredAmount = int.parse(amountController.text);
+    final enteredAmount = double.parse(amountController.text);
     if (enteredTitle.isEmpty || enteredAmount <= 0) {
       return;
     }

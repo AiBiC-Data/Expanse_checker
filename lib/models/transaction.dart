@@ -1,5 +1,4 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter/foundation.dart';
 
 class Transaction {
   @required
@@ -7,7 +6,7 @@ class Transaction {
   @required
   final String title;
   @required
-  final int amount;
+  final double amount;
   @required
   final DateTime date;
 
